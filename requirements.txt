@@ -1,0 +1,20 @@
+# CS4486 Mini Project 3 — Python dependencies
+# Environment: Python 3.11, CPU only (no GPU)
+# Versions as measured on 2026-09-22
+#
+# Recommended — create the conda environment instead:
+#     conda env create -f environment.yml
+#     conda activate iceberg_classify
+#
+# Or with pip (the CPU build of torch lives on PyTorch's own index):
+#     pip install -r requirements.txt
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.14.0+cpu
+xgboost==3.2.0
+numpy==2.4.6
+pandas==3.0.5
+scikit-learn==1.9.0
+kaggle==2.2.4
+scipy==1.17.1

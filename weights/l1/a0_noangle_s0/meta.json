@@ -1,0 +1,22 @@
+{
+  "config": "a0_noangle",
+  "seed": 0,
+  "epochs": 15,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "schedule": "cosine",
+  "channel_mode": "hh_hv",
+  "model_kwargs": {
+    "angle_mode": "none",
+    "activation": "mish",
+    "width": 32,
+    "depth": 3,
+    "dropout": 0.15,
+    "head_dropout": 0.4
+  },
+  "fold_seed": 20260917,
+  "p_mean": 0.2309369444847107,
+  "parameter_count": 303681,
+  "weights_file": "weights.pt"
+}
